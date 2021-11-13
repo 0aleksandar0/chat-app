@@ -1,0 +1,5 @@
+npx create-react-app chat-app
+"start": "react-scripts --openssl-legacy-provider start"
+npm start
+npm install firebase
+if required (npm install -g firebase-tools)
