@@ -1,10 +1,15 @@
 import React from "react";
 import "../Sidebar.css";
+import { DonutLarge } from "@mui/icons-material";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <h1>I am a sidebar</h1>
+      <div className="sidebar__header">
+        <div className="sidebar__headerRight">
+          <DonutLarge />
+        </div>
+      </div>
     </div>
   );
 };
